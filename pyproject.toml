@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sortinghat_replication"
+version = "0.1.0"
+description = ""
+authors = ["TanveerMittal <tanveer@mittals.us>"]
+
+[tool.poetry.dependencies]
+python = "3.7"
+autogluon = "^0.0.11"
+tensorflow-data-validation = "^0.22.2"
+nltk = "*"
+mxnet = "^1.8.0"
+ipython = "^7.29.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

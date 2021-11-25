@@ -1,0 +1,8 @@
+autogluon==0.0.11
+joblib
+nltk==3.6.2
+numpy
+pandas
+scikit_learn
+tensorflow==2.1.0
+tensorflow_data_validation==0.22.2
