@@ -5,7 +5,7 @@ description = ""
 authors = ["TanveerMittal <tanveer@mittals.us>"]
 
 [tool.poetry.dependencies]
-python = "3.7"
+python = "3.*"
 autogluon = "^0.0.11"
 tensorflow-data-validation = "^0.22.2"
 nltk = "*"

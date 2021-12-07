@@ -79,8 +79,6 @@ def downstream_benchmark(path, targetColumn, truthVector, task_type):
     [print("%s:"  % model_map[i], y_cur_lst[i]) for i in range(len(y_cur_lst))]
     results = []
     for i, y_cur in enumerate(y_cur_lst):
-        if i < 4:
-            continue
         all_cols = Featurize(dataDownstream,attribute_names,y_cur).fillna(0)
         print("%s:"  % model_map[i], len(y_cur_lst[i]))
         print(all_cols)
