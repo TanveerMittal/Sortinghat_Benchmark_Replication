@@ -1,4 +1,4 @@
 {
     "dockerhub-id": "toonvoor/sortinghat_replication",
-    "build-script": "conda activate sortinghat && poetry run python run.py"
+    "build-script": "conda activate sortinghat_docker && poetry run python run.py"
 }
